@@ -1,5 +1,13 @@
 import React from "react";
+import Filter from "./Filter";
+
 function FilterList() {
-  return <div>FilterList</div>;
+  return (
+    <section className="list">
+      <Filter />
+      <Filter />
+      <Filter />
+    </section>
+  );
 }
 export default FilterList;

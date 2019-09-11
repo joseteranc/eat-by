@@ -1,5 +1,9 @@
 import React from "react";
 function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="header">
+      <b>Eat</b>by.
+    </header>
+  );
 }
 export default Header;
