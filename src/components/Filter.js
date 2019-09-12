@@ -3,8 +3,11 @@ import React from "react";
 function Filter(props) {
   return (
     <div className="filter">
+      {props.filter.name}
       <select>
-        <option>{props.filter.name}</option>
+        {props.filter.options.map(SingleElement => {
+          return <option>{SingleElement}</option>;
+        })}
       </select>
     </div>
   );

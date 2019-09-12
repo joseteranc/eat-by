@@ -1,6 +1,6 @@
 const restaurants = [
   {
-    imgSrc: "",
+    imgSrc: "../public/images",
     title: "El Ceviche",
     categories: ["ecuadorian"],
     distance: 1,
