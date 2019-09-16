@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.App {
-  width: 100%;
-  height: 100%;
+.app {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background: #495773;
@@ -24,20 +24,15 @@
   border-top-right-radius: 12px;
   align-items: center;
 }
-.list {
-  background: skyblue;
-  height: 60px;
-  width: 100%;
+
+.main {
+  flex-grow: 1;
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
 }
 .filter {
   width: 25%;
   height: 30px;
-
   background: #495773;
 }
 .restaurantlist {
@@ -49,16 +44,6 @@
   overflow: auto;
   align-items: center;
 }
-.restaurant {
-  display: flex;
-  justify-content: space-between;
-  height: 200px;
-  width: 90%;
-  margin: 18px;
-  padding: 14px;
-  background: whitesmoke;
-}
-
 .footer {
   background: #f2600c;
   height: 40px;

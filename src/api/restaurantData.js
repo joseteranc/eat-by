@@ -1,6 +1,7 @@
 const restaurants = [
   {
-    imgSrc: "../public/images",
+    imgSrc:
+      "https://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ampliacion/cevic_IEpBSWZbvdOc7m59xHYX4tVfMDrunK.jpg",
     title: "El Ceviche",
     categories: ["ecuadorian"],
     distance: 1,

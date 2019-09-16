@@ -2,10 +2,16 @@ import React from "react";
 
 function Restaurant(props) {
   return (
-    <div className="card">
-      Title:{props.restaurant.title}
-      Descr.:{props.restaurant.description}{" "}
-    </div>
+    <article>
+      <img
+        src="/images/cevichejipijapa.jpg"
+        width="150"
+        height="160"
+        alt="ceviche"
+      />
+      <h3>Title:{props.restaurant.title}</h3>
+      <p>Descr.:{props.restaurant.description}</p>
+    </article>
   );
 }
 

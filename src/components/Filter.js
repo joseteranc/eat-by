@@ -2,14 +2,18 @@ import React from "react";
 
 function Filter(props) {
   return (
-    <div className="filter">
-      {props.filter.name}
-      <select>
-        {props.filter.options.map(SingleElement => {
-          return <option>{SingleElement}</option>;
-        })}
-      </select>
-    </div>
+    <select
+      className="filter"
+      onChange={event => {
+        props.onChange(props.filter.name, event.target.value);
+      }}
+      //onChange
+    >
+      <option>{props.filter.name}</option>
+      {props.filter.options.map(option => {
+        return <option key={option}>{option} </option>;
+      })}
+    </select>
   );
 }
 export default Filter;

@@ -5,12 +5,15 @@ import FilterList from "./components/FilterList";
 import RestaurantList from "./components/RestaurantList";
 
 function App() {
+  function handleFilterChange(filter, name) {
+    console.log(filter, name);
+  }
   return (
-    <div className="App">
+    <div className="app">
       <Header />
 
-      <main>
-        <FilterList />
+      <main className="main">
+        <FilterList onFilterChange={handleFilterChange} />
         <RestaurantList />
       </main>
       <footer className="footer"> </footer>
