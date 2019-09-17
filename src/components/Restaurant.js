@@ -9,8 +9,8 @@ function Restaurant(props) {
         height="160"
         alt="ceviche"
       />
-      <h3>Title:{props.restaurant.title}</h3>
-      <p>Descr.:{props.restaurant.description}</p>
+      <h3>{props.restaurant.title}</h3>
+      <p>{props.restaurant.description}</p>
     </article>
   );
 }

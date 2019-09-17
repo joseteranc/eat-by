@@ -4,11 +4,20 @@ export const filters = [
     options: ["<2min", "<5min", "<10min"]
   },
   {
-    name: "categorie",
-    options: ["ecuadorian", "indian", "italian", "deutsch"]
+    name: "category",
+    options: [
+      "ecuadorian",
+      "indian",
+      "italian",
+      "deutsch",
+      "see food",
+      "wrap",
+      "street food",
+      "pasta"
+    ]
   },
   {
     name: "price",
-    options: ["5", "10", "15"]
+    options: ["<5", "<10", "<15"]
   }
 ];
