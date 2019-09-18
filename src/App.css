@@ -1,54 +1,5 @@
 *,
 *:before,
-*after {
+*:after {
   box-sizing: border-box;
-}
-
-.app {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: #495773;
-  border-radius: 25px;
-  z-index: 2;
-}
-
-.header {
-  background: #f2600c;
-  height: 30px;
-  width: 100%;
-  padding: 12px;
-  text-align: space-around;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  align-items: center;
-}
-
-.main {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-.filter {
-  width: 25%;
-  height: 30px;
-  background: #495773;
-}
-.restaurantlist {
-  background: rgb(183, 228, 228);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  overflow: auto;
-  align-items: center;
-}
-.footer {
-  background: #f2600c;
-  height: 40px;
-  text-align: center;
-  box-shadow: 125px 55px 45px 10px rgb(223, 233, 243);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
 }
