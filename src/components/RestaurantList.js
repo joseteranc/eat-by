@@ -1,6 +1,18 @@
 import React from "react";
 import Restaurant from "./Restaurant";
 import restaurants from "../api/restaurantData";
+import styled from "styled-components";
+
+const RestaurantListSection = styled.section`
+  background: rgb(183, 228, 228);
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  overflow: auto;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 function RestaurantList({ selectedFilters }) {
   console.log(selectedFilters);
@@ -45,11 +57,11 @@ function RestaurantList({ selectedFilters }) {
     return keepRestaurant;
   });
   return (
-    <section className="restaurantlist">
+    <RestaurantListSection>
       {filteredRestaurants.map(restaurant => {
         return <Restaurant key={restaurant.title} restaurant={restaurant} />;
       })}
-    </section>
+    </RestaurantListSection>
   );
 }
 export default RestaurantList;

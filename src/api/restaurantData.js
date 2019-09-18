@@ -1,8 +1,7 @@
 const restaurants = [
   {
-    imgSrc:
-      "https://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ampliacion/cevic_IEpBSWZbvdOc7m59xHYX4tVfMDrunK.jpg",
-    title: "El Ceviche",
+    imgSrc: "/images/cevichejipijapa.jpg",
+    title: " El Ceviche",
     category: ["ecuadorian", "street food", "see food", "wrap"],
     distance: 5,
     rating: 4.5,
@@ -12,7 +11,7 @@ const restaurants = [
   },
   {
     imgSrc: "",
-    title: "currySelector",
+    title: " currySelector",
     category: ["indian", "pasta", "see food", "wrap"],
     distance: 8,
     rating: 3.7,
@@ -22,7 +21,7 @@ const restaurants = [
   },
   {
     imgSrc: "",
-    title: "la cucina di ",
+    title: " La cucina di La Lolina",
     category: ["italian", "pasta", "see food", "wrap"],
     distance: 10,
     rating: 3.7,
@@ -32,7 +31,7 @@ const restaurants = [
   },
   {
     imgSrc: "",
-    title: "Wurst Kultur",
+    title: " Wurst Kultur",
     category: ["deutsch", "pasta", "street food", "wrap"],
     distance: 3,
     rating: 3.7,
