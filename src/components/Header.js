@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Title = styled.header`
-  background: #f2600c;
+  background: hsl(52, 96%, 69%);
   height: 30px;
   width: 100%;
   padding: 0.2 px;
@@ -15,7 +15,7 @@ const Title = styled.header`
 `;
 const HeadInfo = styled.h1`
   margin: 0;
-  color: #343434;
+  color: hsl(52, 12%, 18%);
   font-weight: normal;
   font-family: "Ultra", sans-serif;
   font-size: 26px;

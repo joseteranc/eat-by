@@ -1,10 +1,10 @@
 export const filters = [
   {
-    name: "distance",
+    name: "Distance",
     options: ["<2min", "<5min", "<10min"]
   },
   {
-    name: "category",
+    name: "Category",
     options: [
       "ecuadorian",
       "indian",
@@ -13,11 +13,14 @@ export const filters = [
       "see food",
       "wrap",
       "street food",
-      "pasta"
+      "pasta",
+      "mexican",
+      "peruvean",
+      "tacos"
     ]
   },
   {
-    name: "price",
+    name: "Price",
     options: ["<5", "<10", "<15"]
   }
 ];

@@ -4,10 +4,12 @@ import styled from "styled-components";
 const FilterSection = styled.select`
   width: 30%;
   height: 25px;
-  background: #495773;
+  background: #80f6f6;
   flex-wrap: wrap;
-  padding-top: 8px;
-  outline: orange;
+  padding-top: 2px;
+  border-style: Solid;
+  border-color: ${props => (props.value ? "green" : "orange")};
+  border-width: 5px;
 `;
 
 function Filter({ onChange, filter, selectedValue }) {
