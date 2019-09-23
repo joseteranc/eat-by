@@ -38,6 +38,36 @@ const restaurants = [
     votes: 10,
     price: 7,
     description: "long wait"
+  },
+  {
+    imgSrc: "",
+    title: " Ramona Mexicana",
+    category: ["mexican", "tacos", "street food", "wrap"],
+    distance: 3,
+    rating: 3.7,
+    votes: 10,
+    price: 7,
+    description: "long wait"
+  },
+  {
+    imgSrc: "",
+    title: " Cusco",
+    category: ["peruvean", "see food", "street food", "wrap"],
+    distance: 3,
+    rating: 3.7,
+    votes: 10,
+    price: 7,
+    description: "long wait"
+  },
+  {
+    imgSrc: "",
+    title: " Waffle Land",
+    category: ["street food", "wrap"],
+    distance: 3,
+    rating: 3.7,
+    votes: 10,
+    price: 7,
+    description: "long wait"
   }
 ];
 

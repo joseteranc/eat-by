@@ -4,7 +4,8 @@ import restaurants from "../api/restaurantData";
 import styled from "styled-components";
 
 const RestaurantListSection = styled.section`
-  background: rgb(183, 228, 228);
+  background: ${props =>
+    props.odd ? "hsl(123, 44%, 93%)" : "hsl(188, 44%, 91%)"};
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;

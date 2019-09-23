@@ -6,7 +6,7 @@ import RestaurantList from "./components/RestaurantList";
 import styled from "styled-components";
 
 const FooterStyle = styled.footer`
-  background: #f2600c;
+  background: hsl(52, 96%, 69%);
   height: 40px;
   text-align: center;
   box-shadow: 125px 55px 45px 10px rgb(223, 233, 243);
